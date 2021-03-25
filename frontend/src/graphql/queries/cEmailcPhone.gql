@@ -1,0 +1,6 @@
+query cEmailcPhoneQuery ($username: String!) {
+    profile (username: $username) {
+        contactPhone
+        contactEmail
+    }
+}

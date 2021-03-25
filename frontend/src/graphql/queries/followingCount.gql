@@ -1,0 +1,3 @@
+query followingCount ($username: String!) {
+    followingCount (username: $username)
+}
